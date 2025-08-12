@@ -1,4 +1,4 @@
-# 🚀 Automação de Análise e Atualização de Dados Corporativos
+# 🚀 Automação de Atualização de dados no Pipedrive
 
 Este projeto é um script Python focado em **automação de coleta, análise e atualização** de dados corporativos, integrando bancos SQL Server, Azure Data Lake e API externa (Pipedrive). Ideal para quem precisa otimizar o processo de análise financeira e atualização automática de dados em sistemas via API.
 
