@@ -1,0 +1,14 @@
+
+pyodbc
+pandas
+numpy
+azure-storage-file-datalake
+requests
+logging
+beautifulsoup4
+python-dotenv
+
+#.venv\scripts\activate     Ativa o ambiente virtual
+#pyinstaller --onefile --noconsole --name="AtualizarPipedrive" main.py      Cria o build do arquivo em exe
+#datas=[('Email_Diario.html', '.'),('Email_Semanal.html', '.'),('GetHiperlink.csv', '.')],
+#pyinstaller AtualizarPipedrive.spec    Apos adicionar os aquivos de dependencias manualmente rodar o spec

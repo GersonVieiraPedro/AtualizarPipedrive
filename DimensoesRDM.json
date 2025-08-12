@@ -1,0 +1,66 @@
+{
+  "DimRecencia": [
+    {
+      "R_ID": 1,
+      "R_Segmento": "R1",
+      "minimo": 366,
+      "maximo": 99999999
+    },
+    {
+      "R_ID": 2,
+      "R_Segmento": "R2",
+      "minimo": 211,
+      "maximo": 365
+    },
+    {
+      "R_ID": 3,
+      "R_Segmento": "R3",
+      "minimo": 91,
+      "maximo": 210
+    },
+    {
+      "R_ID": 4,
+      "R_Segmento": "R4",
+      "minimo": 31,
+      "maximo": 90
+    },
+    {
+      "R_ID": 5,
+      "R_Segmento": "R5",
+      "minimo": 0,
+      "maximo": 30
+    }
+  ],
+  "DimDemanda": [
+    {
+      "D_ID": 1,
+      "D_Segmento": "D1",
+      "minimo": -10.0,
+      "maximo": 0
+    },
+    {
+      "D_ID": 2,
+      "D_Segmento": "D2",
+      "minimo": 0.01,
+      "maximo": 0.04
+    },
+    {
+      "D_ID": 3,
+      "D_Segmento": "D3",
+      "minimo": 0.041,
+      "maximo": 0.08
+    },
+    {
+      "D_ID": 4,
+      "D_Segmento": "D4",
+      "minimo": 0.081,
+      "maximo": 0.12
+    },
+    {
+      "D_ID": 5,
+      "D_Segmento": "D5",
+      "minimo": 0.121,
+      "maximo": 10.0
+    }
+  ]
+}

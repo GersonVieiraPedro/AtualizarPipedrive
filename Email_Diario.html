@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atualização Pipedrive Auto</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+        right: 22px;
+        top: 20px;
+        position: absolute;
+      }
+
+      .email-container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        justify-content: center;
+        position: relative;
+      }
+      .email-header {
+        font-size: 30px;
+        font-weight: bold;
+        color: #5f1797;
+        margin-bottom: 20px;
+      }
+      .email-body {
+        font-size: 16px;
+        color: #555555;
+        line-height: 1.6;
+      }
+      .email-footer {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #888888;
+      }
+      .Fundo {
+        background-color: #d4d4d4;
+        width: 100%;
+        height: 100%;
+      }
+      .Margem {
+        height: 50px;
+      }
+
+      #TabelasAtivosInativos {
+        display: flex;
+      }
+
+      /* Reset básico para garantir um visual consistente em todos os navegadores */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f9;
+        padding: 20px;
+      }
+
+      /* Estilo da tabela */
+      .tb {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 50px;
+      }
+
+      /* Cabeçalho da tabela */
+      th {
+        background-color: #969696; /* Cor de fundo do cabeçalho */
+        color: white;
+        padding: 5px 10px;
+        text-align: left;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      /* Estilo das células da tabela */
+      td {
+        background-color: #ffffff;
+        padding: 5px 10 px;
+        border: 1px solid #ddd; /* Borda sutil entre as células */
+        text-align: center;
+        font-size: 14px;
+      }
+
+      /* Efeito de hover nas linhas da tabela */
+      tr:hover td {
+        background-color: #f1f1f1; /* Cor ao passar o mouse */
+        cursor: pointer;
+      }
+
+      /* Estilo da borda e sombra */
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 2px 10px 2px 10px;
+      }
+
+      /* Sombra para a tabela */
+      table {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Fundo">
+      <div class="Margem"></div>
+      <div class="email-container">
+        <div class="email-header">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              text-align: center;
+            "
+          >
+            <div style="width: 10%"></div>
+            <div style="display: inline-block; text-align: center; width: 80%">
+              <p>Atualização do CRM</p>
+            </div>
+            <div style="width: 10%">
+              <img
+                src="https://uploaddeimagens.com.br/images/004/887/868/full/METARH_-_S%C3%ADmbolo_-_Azul.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="email-body">
+          <p style="margin-bottom: 30px">
+            Segue relatório diário de atualização automarica do sistema
+            Pipedrive:
+          </p>
+          <p style="margin-bottom: 15px; margin-top: 10px">
+            <strong style="font-size: 20px"
+              >Quantidade de organizações atualizadas:</strong
+            >
+          </p>
+          <table class="tb TabelaAtivosInativos">
+            <thead>
+              <tr>
+                <th>Curva</th>
+                <th>Grupos Econômico (Qtde)</th>
+                <th>Organizações (Qtde)</th>
+              </tr>
+            </thead>
+            <tbody class="QtdeGruposEconomicos"></tbody>
+          </table>
+          <p style="margin-bottom: 10px; margin-top: 10px">
+            <strong style="font-size: 20px"
+              >Grupos Econômicos que mudaram de Curva:</strong
+            >
+          </p>
+          <table class="tb TabelaCurva">
+            <thead>
+              <tr>
+                <th>Empresa</th>
+                <th>Curva Antiga</th>
+                <th>Curva Atual</th>
+              </tr>
+            </thead>
+            <tbody class="Curva"></tbody>
+          </table>
+          <p>Para mais informações acessem as Performances no Power BI</p>
+        </div>
+        <div class="email-footer">
+          &copy; METARH 2025 - Atualização Pipedrive automatica.
+        </div>
+      </div>
+      <div class="Margem"></div>
+    </div>
+  </body>
+</html>
